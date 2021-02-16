@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name         Vrv Tweaks
+@name         Twitch Tweaks
 @description  Minor video player tweaks
 @namespace    https://github.com/coffeebank/coffee-userstyles
 @homepageURL  https://github.com/coffeebank/coffee-userstyles
@@ -8,8 +8,8 @@
 @preprocessor default
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://vrv.co/watch/") {
-  .watch-page-container .video-player-wrapper {
-      max-height: calc(100vh - 9rem)
+@-moz-document domain("www.twitch.tv") {
+  div.channel-leaderboard, button[data-a-target="subscribe-button"] {
+      display: none;
   }
 }
