@@ -1,0 +1,78 @@
+/* ==UserStyle==
+@name         tiktok-dl Tweaks
+@description  Tweaks to clean up websites that let you download tiktoks
+@namespace    https://github.com/coffeebank/coffee-userstyles
+@homepageURL  https://github.com/coffeebank/coffee-userstyles
+@version      1.0.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("snaptik.app") {
+  :root {
+      --bgcolor: #222;
+      --bglighter: #444;
+      --textcolor: #eee;
+      --linkcolor: #888;
+      --linkhover: #999;
+  }
+  
+  
+  /* Cleaning up the interface */
+  
+  body > div, body div div.progressbar, body div.progress, footer div.select-lang, .alert#sfull, .footer .menu.row {
+      display: none !important;
+  }
+  
+  body > div#navbar, body > div.pt-menu, body > div.page-header, body > .main, body > div#div_download, body > div#div_download section.section {
+      display: block !important;
+  }
+  
+  .navbar {
+      box-shadow: none !important;
+  }
+  
+  /* Dark theme */
+  
+  html, body, .navbar, .main, .page-header, .page-header.header-filter, .page-header .bg-pc, section.downloader, footer {
+      background: var(--bgcolor) !important;
+      background-color: var(--bgcolor) !important;
+  }
+  
+  .navbar-collapse::after, form.field, .input-group, section div textarea, #url, a.share_item {
+      background: var(--bglighter) !important;
+      background-color: var(--bglighter) !important;
+  }
+  
+  html, body, .navbar, .zhay .center h2, .zhay .center p, body div div.abuttons a.abutton, section div textarea, #url, a.share_item {
+      color: var(--textcolor) !important;
+  }
+  
+  a {
+      color: var(--linkcolor) !important;
+      cursor: pointer;
+  }
+  a:hover {
+      color: var(--linkhover) !important;
+  }
+  
+  form.field, .input-group, section div textarea {
+      border: 3px solid transparent !important;
+  }
+  
+  .navbar.fixed-top {
+      transition: none;
+  }
+}
+  
+@-moz-document regexp("^https\\:\\/\\/snaptik\\.app($|\\/$|\\/\\?)") {
+  /* Cleaning up the interface */
+  
+  body > div.main.main-raised, section.section, section#guide {
+      display: none !important;
+  }
+  
+  section.section.downloader {
+      display: block !important;
+  }
+}
