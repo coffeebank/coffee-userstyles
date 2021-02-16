@@ -1,0 +1,74 @@
+/* ==UserStyle==
+@name         Funimation Tweaks
+@namespace    github.com/coffeebank/coffee-userstyles
+@version      1.0.0
+@license      MIT
+@preprocessor default
+@var color link-color "Link Color" red
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.funimation.com/shows/") {
+  header > div.va-item {
+    padding: 0.5rem 0 !important;
+  }
+  
+  nav section#show-title h3 {
+    font-size: 1.25rem !important;
+    font-weight: bold;
+    padding: 0px !important;
+    height: auto !important;
+  }
+  
+  body.show-details div#fullEpisodesFilters.row.affix {
+    top: 2.5rem !important;
+    padding: 0;
+  }
+  
+  body.show-details .navbar-default .navbar-nav > .active {
+    padding-bottom: 0 !important;
+  }
+  
+  body.show-details .nav > li > a {
+    padding: 0.5rem 15px;
+  }
+  
+  body.show-details .navbar-default .navbar-nav > li > a {
+    font-size: 1rem !important;
+  }
+  
+  /* body.show-details nav#showDetailNavCont.navbar.navbar-default.affix {
+    display: flex;
+  } */
+  
+  div#fullEpisodesFilters div.custom-select, div#fullEpisodesFilters div.custom-select select#seasonSelect {
+    height: 2rem;
+    background-position-y: 0.9rem;
+  }
+}
+  
+@-moz-document regexp("https://www.funimation.com/shows/.*/.*/.*") {
+  :root {
+    --headerbg: #000;
+    --bodybg: #111;
+    --bodytext: #ccc;
+    --linktext: #654393;
+  }
+  
+  header#funimation-main-site-header {
+    background: var(--headerbg);
+    position: relative !important;
+  }
+  
+  header #main-navigation a {
+    color: var(--linktext);
+  }
+  
+  body {
+    background: var(--bodybg);
+    color: var(--bodytext);
+  }
+  
+  div.prem-promo-btn-container {
+    display: none !important;
+  }
+}
