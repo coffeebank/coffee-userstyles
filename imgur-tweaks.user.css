@@ -1,0 +1,75 @@
+/* ==UserStyle==
+@name         Imgur Tweaks
+@description  A cleaner user interface for the 2020 Imgur redesign
+@namespace    https://github.com/coffeebank/coffee-userstyles
+@homepageURL  https://github.com/coffeebank/coffee-userstyles
+@version      1.0.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("imgur.com") {
+  :root {
+      --bgcolor: #111;
+      --textcolor: #888;
+      --commentsSize: 200px;
+  }
+  
+  
+  .Gallery-MainContainer {
+      flex-wrap: wrap-reverse;
+  }
+  
+  /* Gallery Engagement Bar */
+  
+  .Gallery-EngagementBar {
+      width: 100%;
+      display: flex;
+      padding-top: 0px;
+      padding-bottom: calc(var(--commentsSize) + 50px);
+  }
+  .Gallery-EngagementBarContainer, .GalleryVote, .GalleryVote-controls {
+      display: flex;
+      flex-flow: row;
+      flex-wrap: nowrap;
+  }
+  
+  /* Top Nav Bar */
+  
+  .App-cover {
+      position: absolute !important;
+      transition: none !important;
+  }
+  
+  .NewCover.isFixed {
+      position: absolute !important;
+  }
+  
+  body, .GalleryPage-background, .GalleryPage {
+      background: var(--bgcolor) !important;
+  }
+  
+  .CommentsList {
+      position: absolute;
+      width: 95%;
+      margin: 100px 0px -600px 0px;
+      min-height: 0px !important;
+      max-height: var(--commentsSize);
+      overflow-x: hidden;
+      overflow-y: auto;
+      transition: all 0.3s ease;
+  }
+  
+  /* Recommendations and Promos */
+  
+  .GiveEmeraldButton, .GalleryVote-accoladesButton, .Comment-create, .BottomRecirc {
+      display: none !important;
+  }
+  
+  
+  /* Custom Colors */
+  
+  .Gallery-Byline .Navigation-next { /* next button */
+      background: transparent !important;
+  }
+}
