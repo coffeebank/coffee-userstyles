@@ -10,4 +10,6 @@ For userstyle details, click on each file. There'll be a description!
 
 ## Downloads
 
-To download these for use, click on the file you want, then click Download!
+To download these for use, make sure you have [Stylus](https://github.com/openstyles/stylus#releases) installed first.
+
+Click on the file you want above, then click **`"Raw"`** to add it to Stylus.
