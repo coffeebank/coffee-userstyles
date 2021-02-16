@@ -4,8 +4,10 @@ A repository for coffee's userstyles :)
 
 [What's a userstyle? How can I use a userstyle?](https://github.com/openstyles/stylus)
 
+## Descriptions
 
-## funimation-tweaks
+For userstyle details, click on each file. There'll be a description!
 
-- Dark theme for videos page
-- Smaller top bar on Series Episodes page
+## Downloads
+
+To download these for use, click on the file you want, then click Download!
