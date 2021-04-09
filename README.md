@@ -1,4 +1,4 @@
-![Image of a laptop](https://images.unsplash.com/photo-1504292004442-f285299403fa)
+![Image of a laptop](https://raw.githubusercontent.com/coffeebank/coffeebank.github.io/master/home/media/agnieszka-boeske-ky0ljKGar78-unsplash.jpg)
 
 <h1 align="center">coffee-userstyles ☕</h1>
 
