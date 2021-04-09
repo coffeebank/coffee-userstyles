@@ -1,15 +1,25 @@
-# coffee-userstyles
+![Image of a laptop](https://images.unsplash.com/photo-1504292004442-f285299403fa)
 
-A repository for coffee's userstyles :)
+<h1 align="center">coffee-userstyles ☕</h1>
 
-[What's a userstyle? How can I use a userstyle?](https://github.com/openstyles/stylus)
+<h3 align="center">Very minor UI tweaks to websites, that make using them more comfortable....</h3>
 
-## Descriptions
-
-For userstyle details, click on each file. There'll be a description!
+<br />
+<p align="center">
+  <a href="https://github.com/openstyles/stylus#stylus">
+    <img src="https://img.shields.io/badge/-What's%20a%20userstyle%3F-00ffff?style=for-the-badge&logo=gitbook&logoColor=white&labelColor=gray" />
+  </a>
+</p>
 
 ## Downloads
 
-To download these for use, make sure you have [Stylus](https://github.com/openstyles/stylus#releases) installed first.
+**Step 1:** Download [Stylus](https://github.com/openstyles/stylus#stylus) *(Chrome, Firefox, Safari, Edge, Opera, ...)*
 
-Click on the file you want above, then click **`"Raw"`** to add it to Stylus.
+**Step 2:** Click on the **`****.user.css`** you want above
+
+**Step 3:** Click **`"Raw"`** to install it into Stylus!
+
+
+## Descriptions
+
+Click on the file above, and a description will be shown at the top of the file!
