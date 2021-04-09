@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name         Twist.moe Tweaks
+@description  Minor video player tweaks
+@namespace    https://github.com/coffeebank/coffee-userstyles
+@homepageURL  https://github.com/coffeebank/coffee-userstyles
+@version      1.0.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("twist.moe") {
+  @media screen and (min-width: 769px) {
+    .floating-player:not(.floating) .AT-player {
+        min-width: 600px;
+        max-width: 1280px;
+        width: 80%;
+    }
+  }
+}
