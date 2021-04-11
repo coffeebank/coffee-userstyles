@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         AniList and AniChart Tweaks
+@description  Minor UI updates, such as fixing AniChart horizontal width
+@namespace    https://github.com/coffeebank/coffee-userstyles
+@homepageURL  https://github.com/coffeebank/coffee-userstyles
+@version      1.0.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("anichart.net") {
+  /* Fix awkward width on screens 1366px wide */
+  h2.section-heading, div.card-list {
+      grid-template-columns: repeat(3,minmax(390px,410px)) !important;
+  }
+}
