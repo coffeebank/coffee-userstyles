@@ -11,6 +11,6 @@
 @-moz-document domain("anichart.net") {
   /* Fix awkward width on screens 1366px wide */
   h2.section-heading, div.card-list {
-      grid-template-columns: repeat(3,minmax(390px,410px)) !important;
+    grid-template-columns: repeat(3,minmax(390px,410px)) !important;
   }
 }
