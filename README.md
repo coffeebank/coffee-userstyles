@@ -4,7 +4,7 @@
 
 <h1 align="center">coffee-userstyles ☕</h1>
 
-<h4 align="center">Very minor UI tweaks to websites, that make using them more comfortable....</h4>
+<h3 align="center">Very minor UI tweaks to websites, that make using them more comfortable....</h3>
 
 <br />
 <p align="center">
@@ -26,13 +26,13 @@
 
 |Preview|Name|
 |---|---|
-|<h4>AniList/AniChart Tweaks</h4><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/anilist-tweaks/preview.jpg" width=240px>|[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/anilist-tweaks/style.user.css)<ul><li>AniChart: fix horizontal scroll width on screens 1366px wide</li><ul>|
-|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/funimation-tweaks/preview.jpg" width=240px>|<h4>Funimation Tweaks</h4>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/funimation-tweaks/style.user.css)<ul><li>Compress the top bar in the shows page</li><li>Dark theme on video page</li><ul>|
-|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/gogoanime-tweaks/preview.jpg" width=240px>|<h4>Gogoanime Tweaks</h4>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/gogoanime-tweaks/style.user.css)<ul><li>Stretch/expand the video player to a full width</li><li>Move sidebar to bottom</li><ul>|
-|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/imgur-tweaks/preview.jpg" width=240px>|<h4>Imgur Tweaks</h4>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/imgur-tweaks/style.user.css)<ul><li>Clean New Imgur 2021 view image page</li><ul>|
-|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/tiktok-dl-tweaks/preview.jpg" width=240px>|<h4>Tiktok Downloader Tweaks</h4>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/tiktok-dl-tweaks/style.user.css)<ul><li>snaptik.app - Dark theme with clean UI</li><ul>|
-|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/twistmoe-tweaks/preview.jpg" width=240px>|<h4>Twist.moe Tweaks</h4>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/twistmoe-tweaks/style.user.css)<ul><li>Stretch/expand the video player to a wider width</li><ul>|
-||<h4>Twitch Tweaks</h4>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/twitch-tweaks/style.user.css)<ul><li>Hide leaderboard popup in chat</li><ul>|
-||<h4>Vrv Tweaks</h4>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/vrv-tweaks/style.user.css)<ul><li>Expand/stretch the video player to a taller height</li><ul>|
+|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/anilist-tweaks/preview.jpg" width=240px>|<h3>AniList/AniChart Tweaks</h3>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/anilist-tweaks/style.user.css)<br><ul><li>AniChart: fix horizontal scroll width on screens 1366px wide</li><br><ul>|
+|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/funimation-tweaks/preview.jpg" width=240px>|<h3>Funimation Tweaks</h3>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/funimation-tweaks/style.user.css)<br><ul><li>Compress the top bar in the shows page</li><li>Dark theme on video page</li></ul>|
+|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/gogoanime-tweaks/preview.jpg" width=240px>|<h3>Gogoanime Tweaks</h3>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/gogoanime-tweaks/style.user.css)<br><ul><li>Stretch/expand the video player to a full width</li><li>Move sidebar to bottom</li></ul>|
+|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/imgur-tweaks/preview.jpg" width=240px>|<h3>Imgur Tweaks</h3>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/imgur-tweaks/style.user.css)<br><ul><li>Clean New Imgur 2021 view image page</li></ul>|
+|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/tiktok-dl-tweaks/preview.jpg" width=240px>|<h3>Tiktok Downloader Tweaks</h3>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/tiktok-dl-tweaks/style.user.css)<br><ul><li>snaptik.app - Dark theme with clean UI</li></ul>|
+|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/twistmoe-tweaks/preview.jpg" width=240px>|<h3>Twist.moe Tweaks</h3>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/twistmoe-tweaks/style.user.css)<br><ul><li>Stretch/expand the video player to a wider width</li></ul>|
+||<h3>Twitch Tweaks</h3>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/twitch-tweaks/style.user.css)<br><ul><li>Hide leaderboard popup in chat</li></ul>|
+||<h3>Vrv Tweaks</h3>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/vrv-tweaks/style.user.css)<br><ul><li>Expand/stretch the video player to a taller height</li></ul>|
 
 Each **`style.user.css`** file has descriptions inside!
