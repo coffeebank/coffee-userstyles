@@ -24,4 +24,11 @@
 
 ## Descriptions
 
+|Preview|Name|
+|---|---|
+|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/gogoanime-tweaks/preview.jpg" width=240px>|**Gogoanime Tweaks**<br><ul><li>Stretch the player to full width, move sidebar to bottom</li><ul>|
+
+
+
+
 Each **`style.user.css`** file has a description at the top of the file!
