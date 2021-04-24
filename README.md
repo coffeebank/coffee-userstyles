@@ -17,11 +17,11 @@
 
 **Step 1:** Download [Stylus](https://github.com/openstyles/stylus#stylus) *(Chrome, Firefox, Safari, Edge, Opera, ...)*
 
-**Step 2:** Click on the **`****.user.css`** you want above
+**Step 2:** Choose the userstyle you want above, and click **`style.user.css`**
 
 **Step 3:** Click **`"Raw"`** to install it into Stylus!
 
 
 ## Descriptions
 
-Click on the file above, and a description will be shown at the top of the file!
+Each **`style.user.css`** file has a description at the top of the file!
