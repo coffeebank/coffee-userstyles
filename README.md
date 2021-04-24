@@ -13,7 +13,7 @@
   </a>
 </p>
 
-## Downloads
+## Get Started
 
 **Step 1:** Download [Stylus](https://github.com/openstyles/stylus#stylus) *(Chrome, Firefox, Safari, Edge, Opera, ...)*
 
@@ -22,11 +22,22 @@
 **Step 3:** Click **`"Install Style"`**
 
 
-## Descriptions
+## Downloads
+
+<table>
+<tr>
+<td><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/anilist-tweaks/preview.jpg" width=200px></td>
+<td><h3>AniList/AniChart Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/anilist-tweaks/style.user.css"><b>Download</b></a></td>
+</tr>
+</table>
+
+- AniChart: fix horizontal scroll width on screens 1366px wide
+
+<br>
 
 |Preview|Name|
 |---|---|
-|<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/anilist-tweaks/preview.jpg" width=240px><br>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/anilist-tweaks/style.user.css)<ul>|<h3>AniList/AniChart Tweaks</h3><li>AniChart: fix horizontal scroll width on screens 1366px wide</li><ul>|
+||<h3>AniList/AniChart Tweaks</h3><ul><li></li><ul>|
 |<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/funimation-tweaks/preview.jpg" width=240px><br>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/funimation-tweaks/style.user.css)|<h3>Funimation Tweaks</h3><ul><li>Compress the top bar in the shows page</li><li>Dark theme on video page</li></ul>|
 |<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/gogoanime-tweaks/preview.jpg" width=240px><br>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/gogoanime-tweaks/style.user.css)|<h3>Gogoanime Tweaks</h3><ul><li>Stretch/expand the video player to a full width</li><li>Move sidebar to bottom</li></ul>|
 |<img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/imgur-tweaks/preview.jpg" width=240px><br>[**Download**](https://github.com/coffeebank/coffee-userstyles/raw/master/imgur-tweaks/style.user.css)|<h3>Imgur Tweaks</h3><ul><li>Clean New Imgur 2021 view image page</li></ul>|
