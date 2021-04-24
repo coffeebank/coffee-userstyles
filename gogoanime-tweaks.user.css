@@ -1,0 +1,25 @@
+/* ==UserStyle==
+@name         Gogoanime Tweaks
+@description  Minor UI updates
+@namespace    https://github.com/coffeebank/coffee-userstyles
+@homepageURL  https://github.com/coffeebank/coffee-userstyles
+@version      1.1.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("gogoanime.movie"), domain("gogoanime.so"), domain("gogoanime.io"), domain("gogoanime.ai") {
+  
+  /* Stretch the player to full width, move sidebar to bottom */
+  
+  section.content {
+      display: flex;
+      flex-direction: column;
+  }
+  section.content > section.content_left {
+      width: 100%;
+  }
+  section.content_right > .main_body > .main_body_black > .recent {
+      display: none;
+  }
+}
