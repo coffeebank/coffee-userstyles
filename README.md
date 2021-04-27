@@ -32,7 +32,18 @@
 </tr>
 </table>
 
-- AniChart: fix horizontal scroll width on screens 1366px wide
+- AniChart: fix horizontal scroll width, for 1366px wide screens
+
+<br>
+
+<table>
+<tr>
+<td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/crunchyroll-tweaks/preview.jpg" width=260px></td>
+<td width="400px" align="left"><h3>Crunchyroll/Vrv Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/crunchyroll-tweaks/style.user.css"><b>Download</b></a></td>
+</tr>
+</table>
+
+- Expand/stretch the video player to a taller height, for 1366px wide screens
 
 <br>
 
@@ -101,17 +112,6 @@
 </table>
 
 - Hide leaderboard popup in chat
-
-<br>
-
-<table>
-<tr>
-<!-- <td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/vrv-tweaks/preview.jpg" width=260px></td> -->
-<td width="400px" align="left"><h3>Vrv Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/vrv-tweaks/style.user.css"><b>Download</b></a></td>
-</tr>
-</table>
-
-- Expand/stretch the video player to a taller height
 
 
 <br>
