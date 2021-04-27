@@ -27,8 +27,8 @@
 
 <table>
 <tr>
-<td width="200px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/anilist-tweaks/preview.jpg" width=200px></td>
-<td width="300px" align="left"><h3>AniList/AniChart Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/anilist-tweaks/style.user.css"><b>Download</b></a></td>
+<td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/anilist-tweaks/preview.jpg" width=260px></td>
+<td width="400px" align="left"><h3>AniList/AniChart Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/anilist-tweaks/style.user.css"><b>Download</b></a></td>
 </tr>
 </table>
 
@@ -38,8 +38,8 @@
 
 <table>
 <tr>
-<td width="200px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/funimation-tweaks/preview.jpg" width=200px></td>
-<td width="300px" align="left"><h3>Funimation Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/funimation-tweaks/style.user.css"><b>Download</b></a></td>
+<td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/funimation-tweaks/preview.jpg" width=260px></td>
+<td width="400px" align="left"><h3>Funimation Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/funimation-tweaks/style.user.css"><b>Download</b></a></td>
 </tr>
 </table>
 
@@ -50,8 +50,8 @@
 
 <table>
 <tr>
-<td width="200px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/gogoanime-tweaks/preview.jpg" width=200px></td>
-<td width="300px" align="left"><h3>Gogoanime Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/gogoanime-tweaks/style.user.css"><b>Download</b></a></td>
+<td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/gogoanime-tweaks/preview.jpg" width=260px></td>
+<td width="400px" align="left"><h3>Gogoanime Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/gogoanime-tweaks/style.user.css"><b>Download</b></a></td>
 </tr>
 </table>
 
@@ -62,8 +62,8 @@
 
 <table>
 <tr>
-<td width="200px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/imgur-tweaks/preview.jpg" width=200px></td>
-<td width="300px" align="left"><h3>Imgur Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/imgur-tweaks/style.user.css"><b>Download</b></a></td>
+<td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/imgur-tweaks/preview.jpg" width=260px></td>
+<td width="400px" align="left"><h3>Imgur Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/imgur-tweaks/style.user.css"><b>Download</b></a></td>
 </tr>
 </table>
 
@@ -73,8 +73,8 @@
 
 <table>
 <tr>
-<td width="200px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/tiktok-dl-tweaks/preview.jpg" width=200px></td>
-<td width="300px" align="left"><h3>Tiktok Downloader Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/tiktok-dl-tweaks/style.user.css"><b>Download</b></a></td>
+<td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/tiktok-dl-tweaks/preview.jpg" width=260px></td>
+<td width="400px" align="left"><h3>Tiktok Downloader Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/tiktok-dl-tweaks/style.user.css"><b>Download</b></a></td>
 </tr>
 </table>
 
@@ -84,8 +84,8 @@
 
 <table>
 <tr>
-<td width="200px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/twistmoe-tweaks/preview.jpg" width=200px></td>
-<td width="300px" align="left"><h3>Twist.moe Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/twistmoe-tweaks/style.user.css"><b>Download</b></a></td>
+<td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/twistmoe-tweaks/preview.jpg" width=260px></td>
+<td width="400px" align="left"><h3>Twist.moe Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/twistmoe-tweaks/style.user.css"><b>Download</b></a></td>
 </tr>
 </table>
 
@@ -95,8 +95,8 @@
 
 <table>
 <tr>
-<!-- <td width="200px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/twitch-tweaks/preview.jpg" width=200px></td> -->
-<td width="300px" align="left"><h3>Twitch Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/twitch-tweaks/style.user.css"><b>Download</b></a></td>
+<!-- <td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/twitch-tweaks/preview.jpg" width=260px></td> -->
+<td width="400px" align="left"><h3>Twitch Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/twitch-tweaks/style.user.css"><b>Download</b></a></td>
 </tr>
 </table>
 
@@ -106,8 +106,8 @@
 
 <table>
 <tr>
-<!-- <td width="200px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/vrv-tweaks/preview.jpg" width=200px></td> -->
-<td width="300px" align="left"><h3>Vrv Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/vrv-tweaks/style.user.css"><b>Download</b></a></td>
+<!-- <td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/vrv-tweaks/preview.jpg" width=260px></td> -->
+<td width="400px" align="left"><h3>Vrv Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/vrv-tweaks/style.user.css"><b>Download</b></a></td>
 </tr>
 </table>
 
