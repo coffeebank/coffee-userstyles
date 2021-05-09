@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/coffeebank/coffeebank.github.io/master/home/media/agnieszka-boeske-ky0ljKGar78-unsplash.jpg" width="50%" alt="Image of a laptop" />
+  <img src="https://coffeebank.github.io/home/media/agnieszka-boeske-ky0ljKGar78-unsplash.jpg" width="50%" alt="Image of a laptop" />
 </p>
 
 <h1 align="center">coffee-userstyles ☕</h1>
