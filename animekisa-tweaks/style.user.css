@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name         AnimeKisa Tweaks
+@description  Viewing interface tweaks
+@namespace    https://github.com/coffeebank/
+@homepageURL  https://github.com/coffeebank/
+@version      1.0.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("animekisa.tv") {
+  /* div.messageg {
+      background: none !important;
+  } */
+  
+  div#main.maindark, .now2, .playerselect2, .divtext {
+      color: #ccc !important;
+  }
+  
+  div.headermain, div.footermain, a.infoan2, select#select_servers, div.playerbox {
+      filter: grayscale(1) !important;
+  }
+  
+  div.messageg, div.messageg > *, div.server_button_l.show_main, div.centerf > div.centerf2 {
+      visibility: hidden;
+      transition: all 0.5s ease-in-out 5s;
+  }
+  div.now2:hover~div.messageg, div.now2:hover~div.messageg > *, div.now2:hover~div.server_button_l.show_main, div.now2:hover~div.centerf > div.centerf2 {
+      visibility: visible !important;
+      transition: all 0.5s ease-in-out;
+  }
+}

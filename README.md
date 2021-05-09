@@ -38,6 +38,18 @@
 
 <table>
 <tr>
+<td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/animekisa-tweaks/preview.jpg" width=260px></td>
+<td width="400px" align="left"><h3>AnimeKisa Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/animekisa-tweaks/style.user.css"><b>Download</b></a></td>
+</tr>
+</table>
+
+- Hides all the colorful buttons and notices for a better viewing experience
+- Turns many aspects of the UI grayscale
+
+<br>
+
+<table>
+<tr>
 <td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/crunchyroll-tweaks/preview.jpg" width=260px></td>
 <td width="400px" align="left"><h3>Crunchyroll/Vrv Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/crunchyroll-tweaks/style.user.css"><b>Download</b></a></td>
 </tr>
