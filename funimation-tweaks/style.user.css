@@ -3,7 +3,7 @@
 @description  Dark theme (videos page only) and minor Episodes page tweaks
 @namespace    https://github.com/coffeebank/
 @homepageURL  https://github.com/coffeebank/
-@version      1.0.0
+@version      1.1.0
 @license      MIT
 @preprocessor default
 ==/UserStyle== */
@@ -41,7 +41,7 @@
   
 }
   
-@-moz-document regexp("https://www.funimation.com/shows/.*/.*/.*") {
+@-moz-document regexp("https://www.funimation.com/shows/.*/.*/.*"), regexp("https://www.funimation.com/en/shows/.*/.*/.*") {
 
   /* Dark theme on video page */
 
@@ -51,18 +51,18 @@
     --bodytext: #ccc;
     --linktext: #654393;
   }
-  header#funimation-main-site-header {
-    background: var(--headerbg);
+  header, header.global-header {
+    background: var(--headerbg) !important;
     position: relative !important;
   }
-  header #main-navigation a {
-    color: var(--linktext);
+  header #main-navigation a, header a, .main-nav .nav__list__title {
+    color: var(--linktext) !important;
   }
-  body {
-    background: var(--bodybg);
-    color: var(--bodytext);
+  body, .video-player-details-card, .theme--light.v-card, .theme--light.v-expansion-panels .v-expansion-panel {
+    background: var(--bodybg) !important;
+    color: var(--bodytext) !important;
   }
-  div.prem-promo-btn-container {
+  div.prem-promo-btn-container, .global-header.add__premium__btn .premium__box {
     display: none !important;
   }
 
