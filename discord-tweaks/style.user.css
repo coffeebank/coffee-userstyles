@@ -1,0 +1,64 @@
+/* ==UserStyle==
+@name         Discord Tweaks
+@description  Add mobile/small screen support, and other tweaks
+@namespace    https://github.com/coffeebank/
+@homepageURL  https://github.com/coffeebank/
+@version      1.0.17
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("discord.com") {
+  :root {
+      --serverSidebarWidth: 50px;
+      --serverSidebarExpand: 240px;
+      --memberSidebarWidth: 65px;
+      --memberSidebarExpand: 280px;
+  }
+  
+  @media screen and (max-width: 680px) {
+      
+      /* channels list */
+      
+      .sidebar-2K8pFh {
+          transition: all 0.15s ease;
+          transition-delay: 0.1s;
+          width: var(--serverSidebarWidth);
+      }
+      .sidebar-2K8pFh:hover {
+          width: var(--serverSidebarExpand);
+      }
+      .list-2bwCXU, .list-2luk8a { /* voice users */
+          padding-left: 6px;
+      }
+      .unreadBar-3YD_k9 { /* "new unreads" indicator */
+          white-space: nowrap;
+          font-size: 0.55rem;
+      }
+      .container-1ov-mD { /* main chat area - fix width of embeds */
+          overflow-x: auto;
+          overflow-y: hidden;
+      }
+      
+      
+      /* members list */
+      
+      .membersWrap-2h-GB4, .members-1998pB {
+          transition: all 0.15s ease;
+          transition-delay: 0.1s;
+          width: var(--memberSidebarWidth);
+          min-width: var(--memberSidebarWidth);
+      }
+      .membersWrap-2h-GB4:hover, .members-1998pB:hover {
+          width: var(--memberSidebarExpand);
+      }
+      
+      
+      /* cleanup */
+      
+      button[aria-label="Send a gift"], div[aria-label="Help"] {
+          display: none;
+      }
+      
+  }
+}

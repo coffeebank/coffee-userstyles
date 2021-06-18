@@ -61,6 +61,18 @@
 
 <table>
 <tr>
+<!-- <td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/discord-tweaks/preview.jpg" width=260px></td> -->
+<td width="400px" align="left"><h3>Discord Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/discord-tweaks/style.user.css"><b>Download</b></a></td>
+</tr>
+</table>
+
+- Add mobile/small screen support to Discord (responsive design)
+- Hide "Send a Gift" Nitro promotion in Discord message box
+
+<br>
+
+<table>
+<tr>
 <td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/funimation-tweaks/preview.jpg" width=260px></td>
 <td width="400px" align="left"><h3>Funimation Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/funimation-tweaks/style.user.css"><b>Download</b></a></td>
 </tr>
