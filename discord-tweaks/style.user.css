@@ -3,7 +3,7 @@
 @description  Add mobile/small screen support, and other tweaks
 @namespace    https://github.com/coffeebank/
 @homepageURL  https://github.com/coffeebank/
-@version      1.0.17
+@version      1.1.0
 @license      MIT
 @preprocessor default
 ==/UserStyle== */
@@ -15,25 +15,36 @@
       --memberSidebarWidth: 65px;
       --memberSidebarExpand: 280px;
   }
+      
+  /* cleanup */
+
+  button[aria-label="Send a gift"], button[aria-label="Open sticker picker"], div[aria-label="Help"] {
+      display: none;
+  }
   
   @media screen and (max-width: 680px) {
       
-      /* channels list */
+      /* servers and channels */
       
+      nav[aria-label="Servers sidebar"] {
+          margin-left: -2.5rem;
+      }
       .sidebar-2K8pFh {
-          transition: all 0.15s ease;
-          transition-delay: 0.1s;
           width: var(--serverSidebarWidth);
       }
-      .sidebar-2K8pFh:hover {
+      nav[aria-label="Servers sidebar"], .sidebar-2K8pFh {
+          transition: all 150ms ease;
+          transition-delay: 0.1s;
+      }
+      nav[aria-label="Servers sidebar"]:hover {
+          margin-left: 0px;
+      }
+      
+      nav[aria-label="Servers sidebar"]:hover ~ div .sidebar-2K8pFh, .sidebar-2K8pFh:hover {
           width: var(--serverSidebarExpand);
       }
       .list-2bwCXU, .list-2luk8a { /* voice users */
           padding-left: 6px;
-      }
-      .unreadBar-3YD_k9 { /* "new unreads" indicator */
-          white-space: nowrap;
-          font-size: 0.55rem;
       }
       .container-1ov-mD { /* main chat area - fix width of embeds */
           overflow-x: auto;
@@ -53,11 +64,25 @@
           width: var(--memberSidebarExpand);
       }
       
+      /* top bar */
       
-      /* cleanup */
+      section[aria-label="Channel header"] {
+          flex-wrap: wrap;
+          height: 5.25rem;
+      }
       
-      button[aria-label="Send a gift"], div[aria-label="Help"] {
-          display: none;
+      section[aria-label="Channel header"] div div[role="switch"] {
+          margin: 0 !important;
+      }
+      
+      div[aria-label="Search"] {
+          width: calc(100vw - 260px) !important;
+      }
+      
+      section[aria-label="Search Results"] {
+          width: 100%;
+          border-left: darkslategray solid thin;
+          border-top-left-radius: 5px;
       }
       
   }
