@@ -24,7 +24,7 @@
       display: none !important;
   }
   
-  body > div#navbar, body > div.pt-menu, body > div.page-header, body > .main, body > div#div_download, body > div#div_download section.section {
+  body > div#navbar, body > div.pt-menu, body > div.page-header, body > .main, body > div#div_download, body > div#div_download section.section, main section.inputurl-box, main section.download {
       display: block !important;
   }
   
@@ -34,7 +34,7 @@
   
   /* Dark theme */
   
-  html, body, .navbar, .main, .page-header, .page-header.header-filter, .page-header .bg-pc, section.downloader, footer {
+  html, body, .navbar, .main, .page-header, .page-header.header-filter, .page-header .bg-pc, section.downloader, footer, main section {
       background: var(--bgcolor) !important;
       background-color: var(--bgcolor) !important;
   }
@@ -44,11 +44,11 @@
       background-color: var(--bglighter) !important;
   }
   
-  html, body, .navbar, .zhay .center h2, .zhay .center p, body div div.abuttons a.abutton, section div textarea, #url, a.share_item {
+  html, body, .navbar, .zhay .center h2, .zhay .center p, body div div.abuttons a.abutton, main section div textarea, main #url, main a.share_item, main section span {
       color: var(--textcolor) !important;
   }
   
-  a {
+  a, .paste span {
       color: var(--linkcolor) !important;
       cursor: pointer;
   }
@@ -62,6 +62,10 @@
   
   .navbar.fixed-top {
       transition: none;
+  }
+    
+  form .input, form .textarea {
+      border: 0 !important;      
   }
 }
   
