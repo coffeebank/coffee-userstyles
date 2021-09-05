@@ -1,0 +1,38 @@
+/* ==UserStyle==
+@name         DeepL Translator Tweaks
+@description  Clean up main translate page
+@namespace    https://github.com/coffeebank/
+@homepageURL  https://github.com/coffeebank/
+@version      1.0.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.deepl.com/translator") {
+  /* global variables */
+  
+  :root {
+      --dark1: #444;
+      --dark2: #222;
+      --dark3: #111;
+      --dark4: #666;
+      --light1: #eee;
+      --light2: #ccc;
+      --blue1: #6db1d2;
+  }
+  
+  /* clean */
+  
+  .dl_translator_page_container {
+      min-height: auto;
+  }
+  
+  .dl_ad_pro_container, article#lmt_quotes_article, a.dl_headerMenu__appButton, div.dl_header_menu_v2__login_button, .dl_footer__socials {
+      display: none;
+  }
+  
+  .dl_header_menu_v2__links {
+      visibility: hidden;
+  }
+  
+}
