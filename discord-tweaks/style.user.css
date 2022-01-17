@@ -3,7 +3,7 @@
 @description  Add mobile/small screen support, and other tweaks
 @namespace    https://github.com/coffeebank/
 @homepageURL  https://github.com/coffeebank/
-@version      1.1.1
+@version      1.1.2
 @license      MIT
 @preprocessor default
 ==/UserStyle== */
@@ -13,16 +13,16 @@
       --serverSidebarWidth: 50px;
       --serverSidebarExpand: 240px;
       --memberSidebarWidth: 65px;
-      --memberSidebarExpand: 280px;
+      --memberSidebarExpand: 260px;
   }
 
-  /* spacing */
+  /* spacing (hide your server list on screenshots) */
 
   div[aria-label="Servers"] {
       margin-bottom: 125vh;
   }
       
-  /* cleanup */
+  /* nitro cleanup */
 
   button[aria-label="Send a gift"], button[aria-label="Open sticker picker"], div[aria-label="Help"] {
       display: none;
@@ -31,14 +31,15 @@
   @media screen and (max-width: 684px) {
       
       /* servers and channels */
+      /* shrink serverlist to reduce distractions */
       
       nav[aria-label="Servers sidebar"] {
           margin-left: -2.5rem;
       }
-      .sidebar-2K8pFh {
+      div[class*="content"] > div[class*="sidebar"] {
           width: var(--serverSidebarWidth);
       }
-      nav[aria-label="Servers sidebar"], .sidebar-2K8pFh {
+      nav[aria-label="Servers sidebar"], div[class*="content"] > div[class*="sidebar"] {
           transition: all 150ms ease;
           transition-delay: 0.1s;
       }
@@ -46,10 +47,10 @@
           margin-left: 0px;
       }
       
-      nav[aria-label="Servers sidebar"]:hover ~ div .sidebar-2K8pFh, .sidebar-2K8pFh:hover {
+      nav[aria-label="Servers sidebar"]:hover ~ div[class*="content"] > div[class*="sidebar"], div[class*="content"] > div[class*="sidebar"]:hover {
           width: var(--serverSidebarExpand);
       }
-      .list-2bwCXU, .list-2luk8a { /* voice users */
+      div[class*="list"][class*="listDefault"][role="group"] { /* voice users */
           padding-left: 6px;
       }
       .container-1ov-mD { /* main chat area - fix width of embeds */
@@ -60,13 +61,15 @@
       
       /* members list */
       
-      .membersWrap-2h-GB4, .members-1998pB {
+      aside[class*="membersWrap"][class*="hiddenMembers"] {
           transition: all 0.15s ease;
           transition-delay: 0.1s;
           width: var(--memberSidebarWidth);
           min-width: var(--memberSidebarWidth);
+          overflow: hidden;
+          justify-content: left;
       }
-      .membersWrap-2h-GB4:hover, .members-1998pB:hover {
+      aside[class*="membersWrap"]:hover {
           width: var(--memberSidebarExpand);
       }
       
@@ -89,6 +92,12 @@
           width: 100%;
           border-left: darkslategray solid thin;
           border-top-left-radius: 5px;
+      }
+      
+      /* popouts */
+      
+      div[id*="popout_"][style*="position"] {
+          right: 1rem !important;
       }
       
   }
