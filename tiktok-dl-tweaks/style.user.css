@@ -3,7 +3,7 @@
 @description  Tweaks to clean up websites that let you download tiktoks
 @namespace    https://github.com/coffeebank/
 @homepageURL  https://github.com/coffeebank/
-@version      1.0.1
+@version      1.0.2
 @license      MIT
 @preprocessor default
 ==/UserStyle== */
@@ -20,34 +20,34 @@
   
   /* Cleaning up the interface */
   
-  body > div, body div div.progressbar, body div.progress, footer div.select-lang, .alert#sfull, .footer .menu.row {
+  body > div, body div div.progressbar, body div.progress, footer div.select-lang, .alert#sfull, section#content > div.container > div.columns > div.column.is-main, .footer .menu.row, footer > section.section:nth-child(1), button.share-button {
       display: none !important;
   }
-  
+
   body > div#navbar, body > div.pt-menu, body > div.page-header, body > .main, body > div#div_download, body > div#div_download section.section, main section.inputurl-box, main section.download {
       display: block !important;
   }
-  
+
   .navbar {
       box-shadow: none !important;
   }
-  
+
   /* Dark theme */
-  
+
   html, body, .navbar, .main, .page-header, .page-header.header-filter, .page-header .bg-pc, section.downloader, footer, main section {
       background: var(--bgcolor) !important;
       background-color: var(--bgcolor) !important;
   }
-  
-  .navbar-collapse::after, form.field, .input-group, section div textarea, #url, a.share_item {
+
+  .navbar-collapse::after, form.field, .input-group, section div textarea, #url, a.share_item, .ad-main.active .container, .notification.is-success {
       background: var(--bglighter) !important;
       background-color: var(--bglighter) !important;
   }
-  
-  html, body, .navbar, .zhay .center h2, .zhay .center p, body div div.abuttons a.abutton, main section div textarea, main #url, main a.share_item, main section span {
+
+  html, body, .navbar, .zhay .center h2, .zhay .center p, body div div.abuttons a.abutton, main section div textarea, main #url, main a.share_item, main section span, .notification.is-success, a.abutton.modalothervideo {
       color: var(--textcolor) !important;
   }
-  
+
   a, .paste span {
       color: var(--linkcolor) !important;
       cursor: pointer;
@@ -55,11 +55,11 @@
   a:hover {
       color: var(--linkhover) !important;
   }
-  
+
   form.field, .input-group, section div textarea {
       border: 3px solid transparent !important;
   }
-  
+
   .navbar.fixed-top {
       transition: none;
   }
