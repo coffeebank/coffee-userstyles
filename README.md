@@ -72,7 +72,7 @@
 
 <table>
 <tr>
-<!-- <td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/discord-tweaks/preview.jpg" width=260px></td> -->
+<td width="260px"><img src="https://raw.githubusercontent.com/coffeebank/coffee-userstyles/master/discord-tweaks/preview.jpg" width=260px></td>
 <td width="400px" align="left"><h3>Discord Tweaks</h3><a href="https://github.com/coffeebank/coffee-userstyles/raw/master/discord-tweaks/style.user.css"><b>Download</b></a></td>
 </tr>
 </table>
