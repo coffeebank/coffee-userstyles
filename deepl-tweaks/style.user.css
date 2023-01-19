@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name         DeepL Translator Tweaks
-@description  Clean up main translate page
+@description  Clean up main translate page a bit
 @namespace    https://github.com/coffeebank/
 @homepageURL  https://github.com/coffeebank/
-@version      1.0.0
+@version      1.0.1
 @license      MIT
 @preprocessor default
 ==/UserStyle== */
@@ -27,7 +27,13 @@
       min-height: auto;
   }
   
-  .dl_ad_pro_container, article#lmt_quotes_article, a.dl_headerMenu__appButton, div.dl_header_menu_v2__login_button, .dl_footer__socials {
+  .dl_ad_pro_container,
+  article#lmt_quotes_article,
+  a.dl_headerMenu__appButton,
+  div.dl_header_menu_v2__login_button,
+  .dl_footer__socials,
+  button#header-pro-button,
+  div[class*="feedback_button_container"] {
       display: none;
   }
   
